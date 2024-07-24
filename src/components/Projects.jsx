@@ -4,7 +4,7 @@ import useFetchProjects from '../fetchProjects';
 const Projects = () => {
   const { loading, projects } = useFetchProjects();
   return (
-    <section className='bg-slate-100 pt-10 pb-20' id='projects'>
+    <section className='bg-slate100 pt-10 pb-20' id='projects'>
       <section className='align-element'>
         <SectionTitle text={'my projects'} />
         <div className='grid grid-cols-minmax-300  gap-10'>
