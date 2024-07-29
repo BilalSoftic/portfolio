@@ -7,7 +7,7 @@ const Skills = () => {
     <section className=' bg-slate-100 py-10 ' id='skills'>
       <div className='align-element  capitalize'>
         <SectionTitle text={'tech stack'} />
-        <div className=' grid grid-cols-minmax-300  gap-10'>
+        <div className=' grid sm:grid-cols-minmax-300  gap-10'>
           {skills.map((skill) => {
             return <SkillCard skill={skill} key={skill.id} />;
           })}
