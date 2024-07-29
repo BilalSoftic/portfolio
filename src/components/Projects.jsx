@@ -7,7 +7,7 @@ const Projects = () => {
     <section className='bg-slate100 pt-10 pb-20' id='projects'>
       <section className='align-element'>
         <SectionTitle text={'my projects'} />
-        <div className='grid grid-cols-minmax-300  gap-10'>
+        <div className='grid sm:grid-cols-minmax-250  gap-10'>
           {projects.map((project) => {
             return <ProjectCard project={project} key={project.id} />;
           })}

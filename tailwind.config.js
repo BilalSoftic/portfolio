@@ -13,7 +13,7 @@ export default {
     },
     extend: {
       gridTemplateColumns: {
-        'minmax-300': 'repeat(auto-fit, minmax(300px, 1fr))',
+        'minmax-250': 'repeat(auto-fit, minmax(300px, 1fr))',
       },
     },
   },

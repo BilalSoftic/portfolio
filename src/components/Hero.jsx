@@ -24,11 +24,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='flex justify-center  items-center '>
+        <div className='flex justify-center items-center '>
           <img
             src={img}
             alt='bilal-softic.jpeg'
-            className='rounded-full w-full md:w-2/3'
+            className='rounded-full w-full md:w-2/3 sm:-translate-y-16'
           />
         </div>
       </div>

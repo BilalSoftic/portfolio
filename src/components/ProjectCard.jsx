@@ -3,7 +3,7 @@ import { BsGithub, BsGlobe } from 'react-icons/bs';
 const ProjectCard = ({ project }) => {
   const { title, url, img, source_url, description } = project;
   return (
-    <article className=' bg-white rounded-2xl min-w-80 overflow-hidden shadow-md hover:shadow-2xl duration-300'>
+    <article className=' bg-white rounded-2xl  overflow-hidden shadow-md hover:shadow-2xl duration-300'>
       <a
         href={url ? url : source_url}
         target='_blank'
